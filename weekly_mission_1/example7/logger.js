@@ -32,6 +32,7 @@ export const LEVELS = {
 export class Logger {
   constructor (name) {
     this.name = name
+    this.log('Fuck')
   }
 
   log (message) {

@@ -17,3 +17,7 @@
 module.exports.verbose = (message) => {
     console.log(`verbose: ${message}`)
   }
+
+module.exports.default = (message) => {
+    console.log(`Funcion por defecto:  ${message}`)
+}
