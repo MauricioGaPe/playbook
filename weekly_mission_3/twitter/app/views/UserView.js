@@ -6,7 +6,7 @@ class UserView {
         var result = new Object();
 
         if (payload == null) {
-            result.error = "payload no existe";
+            result.error = "payload nulo";
         } else if(String(payload.username) && String(payload.name) && Number(payload.id)){
             return new User(payload.id, payload.username, payload.name, "No Bio")
         } else {

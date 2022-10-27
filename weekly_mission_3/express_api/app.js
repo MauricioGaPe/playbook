@@ -27,21 +27,21 @@ app.get('/v1/explorers/:id', (req, res) => {
 app.post('/v1/explorers', (req, res) => {
     console.log(`Api Explorers POST request ${new Date()}`);
     const requestBody = req.body
-    res.status(201).json({message: "Created"})
+    res.status(201).json({created: `${requestBody.name}`, message: "Creado"})
 })
 
 app.put('/v1/explorers/:id', (req, res) => {
     console.log(`Api Explorers PUt request ${new Date()}`);
     console.log(`Update explorer with id ${req.params.id}`);
     const requestBody = req.body
-    res.status(200).json({message: "Actualizado!"})
+    res.status(200).json({update: `${requestBody.name}`, message: "Actualizado!"})
 })
 
 app.delete('/v1/explorers/:id', (req, res) => {
     console.log(`Api Explorers DELETE request ${new Date()}`);
     console.log(`Delete explorer with id ${req.params.id}`);
     const requestBody = req.body
-    res.status(200).json({message: "Eliminado!"})
+    res.status(200).json({deleteId: `${req.params.id}`, message: "Eliminado!"})
 })
 
 // Con esto inicializamos esta app

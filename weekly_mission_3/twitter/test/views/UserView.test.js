@@ -5,7 +5,7 @@ describe('Tests for UserView', () => {
     test('Retorna un objeto de errror cuando se intenta crear un nuevo usuario con un null payload', () => {
         const payload = null;
         const result = UserView.createUser(payload);
-        expect(result.error).toMatch(/payload no existe/);
+        expect(result.error).toMatch(/payload nulo/);
     });
 
     test('Retorna un objeto de error cuando intenta crear un nuevo usuario con un payload con propiedades invalidas', () => {
