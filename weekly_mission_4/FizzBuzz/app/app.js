@@ -1,7 +1,7 @@
 const fs = require("fs");//Se requere el lector de archivos
 
 // Part 1 Read json file ===========================
-const rawdata = fs.readFileSync("explorers.json");//leyendo el archivo explorers
+const rawdata = fs.readFileSync("./assets/explorers.json");//leyendo el archivo explorers
 const explorers = JSON.parse(rawdata);//parseando el archivo a formato json legible
 
 // Part 2: Get the quantity of explorers names in node

@@ -37,3 +37,13 @@ Este metodo no necesita ser instanciado (new), sus funciones se pueden utilizar 
 
 Express Api:
 Para utilizar correctamente este servidor revisar app.js de express_basic
+
+Notas:
+Crear proyecto JS
+Instalar dependencias
+Estructura
+Pruebas de unidadx
+No confies en una prueba que no hazz visto fallar
+Utilizar TDD
+Estructuracion de Proyecto
+Ignorar Node_Modules y package.json

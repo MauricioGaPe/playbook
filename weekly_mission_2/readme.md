@@ -162,3 +162,11 @@ switch (condicion) {
     break;
 }
 
+
+
+Notas:
+Las herramientas de trabajo amplifican tu talento
+Practicar lineas de comando
+Git no es GitHub
+Conocer tu editor de texto
+Conocer Git
