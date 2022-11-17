@@ -2,7 +2,15 @@ const StudentsService = require('./services/studentsService')
 
 class ServiceController {
     static allStudents(){
-        return StudentsService.allStudentsService()
+        return StudentsService.allStudentsService();
+    }
+
+    static studentsHaveCertification(){
+        return StudentsService.studentsHaveCertification();
+    }
+
+    static studentCreditMin(){
+        return StudentsService.studentCreditMin();
     }
 }
 
